@@ -27,14 +27,15 @@ import stock_manager
 # ------------------------------
 
 load_dotenv()
-TOKEN = os.getenv("TOKEN")
+TOKEN = "8544381766:AAGti1O0hA6Iopxav1223ZsRow3og9TndCw"
 
 # --- Настройки Crypto Bot ---
 CRYPTO_BOT_TOKEN = os.getenv("CRYPTO_BOT_TOKEN")
 CRYPTO_BOT_URL = "https://pay.crypt.bot/api" 
 
-# --- Настройки Lolz Market ---
-LOLZ_JWT = os.getenv("LOLZ_JWT") 
+# --- Настройки Lolz Market 
+LOLZ_JWT="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOjkyNTYyODUsImlzcyI6Imx6dCIsImlhdCI6MTc2NTUwMjE1NCwianRpIjoiODk0Njc5Iiwic2NvcGUiOiJiYXNpYyByZWFkIHBvc3QgY29udmVyc2F0ZSBwYXltZW50IGludm9pY2UgY2hhdGJveCBtYXJrZXQiLCJleHAiOjE5MjMxODIxNTR9.De0B0GY741gesWPc6-skboeZdnM2cBZ8GkTNCmyDstgPIZaGOmsMUW2H_N6qFpKer8Fcx8J0tG1Ede0a2jUnguT5bmROPNDmoJA0F7muY7VIbQP8xnoKvP35P21omNOg4HEAi4ORtXTYBsbMghA5Up1NdkUj3YweWfn2ZLrP25o"
+
 LZT_MERCHANT_ID = 1729 
 
 LZT_API_URL_CREATE = "https://prod-api.lzt.market/invoice" 
